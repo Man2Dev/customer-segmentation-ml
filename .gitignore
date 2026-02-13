@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+*.sql
+*.mdb
+*.accdb
+
+# Data files (large datasets)
+data/*.csv
+data/*.xlsx
+data/*.json
+data/*.parquet
+*.csv
+
+# Generated figures (reproducible from notebook)
+reports/figures/*.png
+*.png
+
+# Environment variables
+.env
+.env.local
+
+# Distribution
+*.tar.gz
+*.zip
